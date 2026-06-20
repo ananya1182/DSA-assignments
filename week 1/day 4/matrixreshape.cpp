@@ -28,8 +28,8 @@ int r,c;
 cout<< " Enter rows and elements of the matrix to be reshaped ";
 cin>> r>>c;
 
-Solution obj;
-    vector<vector<int>> result = obj.matrixReshape(mat, r, c);
+
+    vector<vector<int>> result = matrixReshape(mat, r, c);
 
  cout << "Reshaped Matrix:\n";
     for (int i = 0; i < result.size(); i++) {
